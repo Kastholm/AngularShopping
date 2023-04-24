@@ -1,0 +1,12 @@
+main {
+  @apply grid;
+  grid-template-columns: auto 1fr;
+}
+.appBody {
+  @apply grid;
+  grid-template-columns: auto;
+  place-items: start center;
+  div {
+    @apply p-12 bg-red-100;
+  }
+}
